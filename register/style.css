@@ -36,17 +36,17 @@ form {
 .wrap {
 	position: absolute;
 	float: left;
-	background: url(../assets/image/imgMen/im22.jpg);
-	background-size: 770px 625px;
-	width: 765px;
+	width: 100vw;
 	height: 100vh;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../assets/image/imgWomen/iw14.jpg);
 	font-family: Comfortaa-Light;
 	overflow: hidden;
+	z-index: -1;
 }
 .wrapp {
 	float: right;
 	width: 600px;
-	height: 100vh;
+	height: 60vh;
 	background: whitesmoke;
 	border: none;
 	font-family: Comfortaa-Light;
@@ -72,30 +72,6 @@ form {
 	font-size: 1em;
 	width: 150px;
 	margin-right: 0;
-}
-.login .lgkiri {
-	float: left;
-	width: 150px;
-}
-.login .lgkiri input {
-	width: 230px;
-	height: 30px;
-	border-radius: 5px;
-	border: 1px solid gray;
-	margin-top: -10px; 
-}
-.login .lgkanan {
-	float: left;
-	width: 150px;
-	margin-left: 110px;
-	margin-bottom: 20px;
-}
-.login .lgkanan input {
-	width: 230px;
-	height: 30px;
-	border-radius: 5px;
-	border: 1px solid gray;
-	margin-top: -10px; 
 }
 .login input {
 	width: 150px;
@@ -147,20 +123,6 @@ form {
 	height: 30px;
 	border-radius: 5px;
 	border: 1px solid gray;
-}
-.login .Kpswrd {
-	margin-top: 10px;
-}
-.login .Kpswrd input {
-	width: 98%;
-	height: 30px;
-	border-radius: 5px;
-	border: 1px solid gray;
-}
-.login .Kpswrd h3 {
-	font-size: 1em;
-	width: 200px;
-	margin-right: 0;
 }
 .login .btn {
 	position: relative;	
