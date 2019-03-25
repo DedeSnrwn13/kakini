@@ -203,7 +203,7 @@ form {
 	}
 	.wrapp {
 		float: right;
-		width: 400px;
+		width: 418px;
 		height: 100vh;
 		background: whitesmoke;
 		border: none;
@@ -228,26 +228,25 @@ form {
 	}
 	.login h3 {
 		font-size: 1em;
+		margin: 10px;
 	}
 	.login .lgkiri {
-		float: left;
 		width: 150px;
 	}
 	.login .lgkiri input {
-		width: 230px;
+		width: 100%;
 		height: 30px;
 		border-radius: 5px;
 		border: 1px solid gray;
 		margin-top: -10px; 
 	}
 	.login .lgkanan {
-		float: left;
 		width: 150px;
-		margin-left: 110px;
-		margin-bottom: 20px;
+		margin-left: 40px;
+		margin-bottom: 5px;
 	}
 	.login .lgkanan input {
-		width: 230px;
+		width: 100%;
 		height: 30px;
 		border-radius: 5px;
 		border: 1px solid gray;
