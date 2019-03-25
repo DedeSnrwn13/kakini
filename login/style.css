@@ -186,10 +186,13 @@ form {
 	color: #fff;
 	font-family: Comfortaa-Light;
 }
-.txt {
-	margin-top: 50px;
-}
-.txt p {
-	
-}
-
+@media screen and (max-width: 768px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	.container {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+}	

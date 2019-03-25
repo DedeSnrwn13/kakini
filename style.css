@@ -57,11 +57,12 @@ header ul {
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 0;
+	left: 0;
 }
 header ul li {
 	list-style: none;
 	position: relative;
-	padding: 10px;
+	padding: 5px;
 	transition: 0.5s;
 	box-sizing: border-box;
 	margin: 0;
@@ -70,11 +71,11 @@ header ul li {
 }
 header ul li a {
 	text-decoration: none;
-	padding: 0 20px;
+	padding: 0 10px;
 	color: #000;
 	font-family: Roboto-Light;
 	height: 50px;
-	display: block;
+	display: inline-block;
 	line-height: 50px;
 }
 header ul li a:hover {
@@ -84,9 +85,11 @@ header ul li a:hover {
 }
 .navbar ul li {
 	position: relative;
-	display: block;
+	display: flex;
 	transition: 0.5s;
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 .navbar ul li a {
 	font-family: Roboto-Light;
@@ -107,30 +110,71 @@ header ul li a:hover {
 }
 .logo {
 	position: relative;
-	margin: 0 266px;
+	margin: 0 170px;
 }
 .logo img {
 	margin-top: -7px;
+}
+.search {
+	height: 50px;
+	width: 250px;
+}
+.search input {
+	height: 40px;
+	width: 250px;
+	margin-top: 5px;
+	border-radius: 2px;
+	border: none;
+	border: 1px solid #0005;
+	transition: 0.75s;
+	font-family: Comfortaa-Light;
+	font-size: 13px; 
+	padding-left: 10px;
+}
+.search input:hover {
+	color: #0009;
+	padding-left: 5px;
+	transition: 0.75s;
+	font-size: 13px; 
+	padding-left: 20px;
+	font-family: Comfortaa-Light;
+}
+.search input::-webkit-input-placeholder {
+	position: relative;
+	font-size: 15px;
+	color: #0009;
+	padding-left: 10px;
+}
+.search input:hover::-webkit-input-placeholder {
+	transition: 0.5s;
+	padding-left: 30px;
+	font-family: Comfortaa-Light;
+	color: #0009;
 }
 .languages {
 	position: relative;
 	float: right;
 	width: 50px;
 	height: 100px;
+	margin-left: 10px;
 }
 .languages ul {
 	display: flex;
 	cursor: pointer;
+	margin: 0 auto;
+	padding: 0;
+	left: 0;
 }
 .languages ul li {
 	position: relative;
 	display: block;
 	transition: 0.5s;
 	box-sizing: border-box;
+
 }
 .languages ul li a {
 	font-family: Roboto-Light;
-	display: block;
+	display: inline-block;
 }
 .languages ul li ul {
 	position: absolute;
@@ -146,13 +190,15 @@ header ul li a:hover {
 	visibility: visible;
 }
 .login {
-	margin-left: 100px;
 	float: right;
 	right: 0;
 }
 .login ul {
 	font-family: Roboto-Light;
 	line-height: 50px; 
+}
+.login ul li {
+	display: block;
 }
 .login span:hover {
 	color: #0008;
@@ -161,6 +207,7 @@ header ul li a:hover {
 	font-weight: 900;
 	text-decoration: none;
 	color: #0009;
+	display: inline-block;
 }
 .login ul li a:hover {
 	color: #fff;
@@ -173,6 +220,7 @@ header ul li a:hover {
 	width: 100%;
 	height: 95vh;
 	overflow: hidden;
+	z-index: 100;
 } 
 .navigasi {
 	position: absolute;
@@ -180,6 +228,7 @@ header ul li a:hover {
 	left: 50%;
 	transform: translateX(-50%);
 	display: flex;
+	z-index: 100;
 }
 .bar {
 	width: 20px;
@@ -232,7 +281,7 @@ input[name="r"] {
 	background: transparent;
 	margin-right: 0;
 	margin-top: -440px;
-	margin-left: 420px;
+	margin-left: 425px;
 }
 .textdisk  {
 	position: relative;

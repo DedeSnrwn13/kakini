@@ -63,22 +63,17 @@ header ul li a:hover {
 	background: #2196f3;
 	transform: 0.5s ease;
 }
-.navbar ul {
-	display: flex;
-	cursor: pointer;
-	margin: 0 auto;
-	padding: 0;
-	left: 0;
-}
 .navbar ul li {
 	position: relative;
 	display: flex;
 	transition: 0.5s;
 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 .navbar ul li a {
 	font-family: Roboto-Light;
-	display: inline-block;
+	display: block;
 }
 .navbar ul li ul {
 	position: absolute;
