@@ -43,6 +43,11 @@
 							</ul>
 						</div>
 					</ul>
+					<div class="menu-toggle">
+						<div class="satu"></div>
+						<div class="dua"></div>
+						<div class="tiga"></div>
+					</div>
 				</div>
 			</div>
 		</nav>
@@ -97,7 +102,7 @@
 	<div class="container">
 		<div class="hotCollection bgWhite">
 			<div class="left1"></div><div id="text1">HOT COLLECTION</div><div class="right1"></div>
-			<div class="colImg">
+			<div data-slick='{"slidesToShow": 4, "slidesToScroll": 4}' class="colImg slick slider-area slider">
 				<div class="next">
 					<a href="#"><p>NEXT</p></a>
 				</div>
@@ -151,6 +156,16 @@
 				<div class="k4">
 					<img src="./assets/image/imgMen/im7.jpg" alt="">
 					<h3>Upluk</h3>
+					<h5>Rp. 100,000</h5>
+				</div>
+				<div class="k5">
+					<img src="./assets/image/imgMen/im3.jpg" alt="">
+					<h3>Kaos Kaki</h3>
+					<h5>Rp. 100,000</h5>
+				</div>
+				<div class="k6">
+					<img src="./assets/image/imgMen/im4.jpg" alt="">
+					<h3>Celana Pendek Pantai</h3>
 					<h5>Rp. 100,000</h5>
 				</div>
 			</div>
@@ -478,4 +493,14 @@
 	<div class="clearfix"></div>
 
 </body>
+<script src="assets/js/jquery.js"></script>
+<script>
+	$(document).ready(function(){
+		$('.menu-toggle').click(function(){
+			$('.navbar').toggleClass('aktif')
+		})
+	})
+</script>
+
+
 </html>

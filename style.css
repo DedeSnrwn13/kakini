@@ -2281,4 +2281,139 @@ input[name="r"] {
 	color: #0009;
 	cursor: pointer;
 	font-family: Comfortaa-Light;
-}	
+}			
+@media screen and (max-width: 768px) {
+	body {
+		margin: 0;
+		padding: 0;
+	}
+	header {
+		box-shadow: 0 0 10px #000;
+	}
+	nav {
+		width: 100vw;
+	}
+	.container {
+		max-width: 700px;
+		margin: 0 auto;
+	}
+	header ul {
+		max-width: 700px;
+	}
+	header ul li a {
+		padding: 0 5px;
+	}
+	header ul li a:hover {
+		color: #fff;
+		background: #2196f3;
+		transform: 0.5s ease;
+	}
+	.logo {
+		margin-top: 10px;
+		margin: 0 5px;
+
+	}
+	.logo img {
+		margin-left: -20px;
+		width: 100px;
+		height: 30px;
+		
+	}
+	.search {
+		height: 50px;
+		width: 200px;
+	}
+	.search input {
+		height: 40px;
+		width: 200px;
+		margin-top: 5px;
+		border-radius: 2px;
+		border: none;
+		border: 1px solid #0005;
+		transition: 0.75s;
+		font-family: Comfortaa-Light;
+		font-size: 13px; 
+		padding-left: 10px;
+	}
+	.search input:hover {
+		color: #0009;
+		padding-left: 5px;
+		transition: 0.75s;
+		font-size: 13px; 
+		padding-left: 20px;
+		font-family: Comfortaa-Light;
+	}
+	.search input::-webkit-input-placeholder {
+		position: relative;
+		font-size: 15px;
+		color: #0009;
+		padding-left: 10px;
+	}
+	.search input:hover::-webkit-input-placeholder {
+		transition: 0.5s;
+		padding-left: 30px;
+		font-family: Comfortaa-Light;
+		color: #0009;
+	}
+	.languages {
+		position: relative;
+		float: right;
+		width: 50px;
+		height: 100px;
+		margin-left: 10px;
+	}
+	.languages ul {
+		display: flex;
+		cursor: pointer;
+		margin: 0 auto;
+		padding: 0;
+		left: 0;
+	}
+	.languages ul li {
+		position: relative;
+		display: block;
+		transition: 0.5s;
+		box-sizing: border-box;
+
+	}
+	.languages ul li a {
+		font-family: Roboto-Light;
+		display: inline-block;
+	}
+	.languages ul li ul {
+		position: absolute;
+		display: block;
+		font-family: Roboto-Light;
+		transition: 0.5s;
+		opacity: 0;
+		visibility: hidden;
+		background: #fff;
+	}
+	.languages ul li:hover ul {
+		opacity: 1;
+		visibility: visible;
+	}
+	.login {
+		float: right;
+		right: 0;
+	}
+	.login ul {
+		font-family: Roboto-Light;
+		line-height: 50px; 
+	}
+	.login ul li {
+		display: block;
+	}
+	.login span:hover {
+		color: #0008;
+	}
+	.login ul li a {
+		font-weight: 900;
+		text-decoration: none;
+		color: #0009;
+		display: inline-block;
+	}
+	.login ul li a:hover {
+		color: #fff;
+	}
+}
